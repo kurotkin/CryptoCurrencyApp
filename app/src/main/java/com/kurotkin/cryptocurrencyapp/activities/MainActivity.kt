@@ -1,10 +1,12 @@
-package com.kurotkin.cryptocurrencyapp
+package com.kurotkin.cryptocurrencyapp.activities
 
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import com.kurotkin.cryptocurrencyapp.R
+import com.kurotkin.cryptocurrencyapp.fragments.CurrenciesListFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -12,6 +14,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        if(savedInstanceState == null){
+            supportFragmentManager.beginTransaction()
+                .add(R.id.container, CurrenciesListFragment(), null)
+                .commit()
+        }
 
 
 //        val apiService = RetrofitGetInterface.create()

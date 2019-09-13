@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Crypto Currency App</string>
-    <string name="the_index_is_calculated">The rating TOP-100 cryptocurrencies by market capitalization.\nPowered by
-        CoinGecko API
+    <string name="the_index_is_calculated">Рейтинг TOP-100 криптовалют по рыночной капитализации по данным
+        CoinGecko
     </string>
-    <string name="rate_this_app_button_text">Rate This App</string>
+    <string name="rate_this_app_button_text">Оценить приложение</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
