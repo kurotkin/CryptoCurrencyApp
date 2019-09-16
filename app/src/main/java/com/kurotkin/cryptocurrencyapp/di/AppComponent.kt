@@ -1,6 +1,7 @@
 package com.kurotkin.cryptocurrencyapp.di
 
 import com.kurotkin.cryptocurrencyapp.activities.MainActivity
+import com.kurotkin.cryptocurrencyapp.chart.LatestChart
 import com.kurotkin.cryptocurrencyapp.fragments.CurrenciesListFragment
 import com.kurotkin.cryptocurrencyapp.mvp.CurrenciesPresenter
 import com.kurotkin.cryptocurrencyapp.mvp.LatestChartPresenter
@@ -14,4 +15,5 @@ interface AppComponent {
     fun inject(presenter: CurrenciesPresenter)
     fun inject(presenter: LatestChartPresenter)
     fun inject(fragment: CurrenciesListFragment)
+//    fun inject(chart: LatestChart)
 }
