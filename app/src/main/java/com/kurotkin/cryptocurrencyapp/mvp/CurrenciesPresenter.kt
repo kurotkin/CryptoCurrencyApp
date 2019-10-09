@@ -1,6 +1,6 @@
 package com.kurotkin.cryptocurrencyapp.mvp
 
-import com.kurotkin.cryptocurrencyapp.Currency
+import com.kurotkin.cryptocurrencyapp.model.Currency
 import com.kurotkin.cryptocurrencyapp.di.App
 import com.kurotkin.cryptocurrencyapp.formatThousands
 import com.kurotkin.cryptocurrencyapp.rest.CoinGeckoApi

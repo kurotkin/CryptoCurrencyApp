@@ -1,5 +1,6 @@
-package com.kurotkin.cryptocurrencyapp
+package com.kurotkin.cryptocurrencyapp.rest
 
+import com.kurotkin.cryptocurrencyapp.model.ResponseItem
 import io.reactivex.Observable
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory

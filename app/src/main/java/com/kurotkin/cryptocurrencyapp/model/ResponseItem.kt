@@ -1,4 +1,4 @@
-package com.kurotkin.cryptocurrencyapp
+package com.kurotkin.cryptocurrencyapp.model
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName

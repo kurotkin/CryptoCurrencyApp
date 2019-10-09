@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.bumptech.glide.Glide
 import com.kurotkin.cryptocurrencyapp.activities.ChartActivity
+import com.kurotkin.cryptocurrencyapp.model.Currency
 import kotlinx.android.synthetic.main.item.view.*
 
 class CurrenciesAdapter: BaseAdapter<CurrenciesAdapter.CurrencyVewHolder>() {

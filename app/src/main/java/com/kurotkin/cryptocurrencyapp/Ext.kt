@@ -1,5 +1,6 @@
 package com.kurotkin.cryptocurrencyapp
 
+import android.annotation.SuppressLint
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -10,6 +11,7 @@ fun Float.formatThousands() : String {
     return sb.toString()
 }
 
+@SuppressLint("SimpleDateFormat")
 fun Number.dateToString(pattern: String): String {
     val calendar = Calendar.getInstance()
     calendar.timeInMillis = this.toLong()

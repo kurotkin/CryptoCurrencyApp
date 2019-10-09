@@ -1,4 +1,4 @@
-package com.kurotkin.cryptocurrencyapp
+package com.kurotkin.cryptocurrencyapp.model
 
 data class Currency (val id: String,
                      val symbol: String,

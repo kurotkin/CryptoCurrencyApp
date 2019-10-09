@@ -1,6 +1,6 @@
 package com.kurotkin.cryptocurrencyapp.mvp
 
-import com.kurotkin.cryptocurrencyapp.Currency
+import com.kurotkin.cryptocurrencyapp.model.Currency
 
 class CurrenciesContract {
 
