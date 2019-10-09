@@ -8,4 +8,21 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="Theme.MainActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <style name="Theme.AboutActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActivityTransitions">true</item>
+
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/info_transition
+        </item>
+
+        <item name="android:windowSharedElementExitTransition">
+            @transition/info_transition
+        </item>
+    </style>
+
 </resources>

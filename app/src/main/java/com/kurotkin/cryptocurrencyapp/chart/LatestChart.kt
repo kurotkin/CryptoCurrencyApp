@@ -24,7 +24,7 @@ class LatestChart {
     lateinit var chart: LineChart
 
     init {
-//        App.appComponent.inject(this)
+        App.appComponent.inject(this)
     }
 
     fun initChart(chart: LineChart) {
